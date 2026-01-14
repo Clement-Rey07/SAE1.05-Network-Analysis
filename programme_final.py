@@ -4,7 +4,7 @@ import os
 from collections import Counter
 import datetime
 
-nom_fichier_logs = r"C:\Users\Kinon\Desktop\SAE1.05\dump.txt"
+nom_fichier_logs = "dump.txt"
 
 
 def analyser_logs(fichier):
@@ -228,5 +228,6 @@ with open(chemin_html, "w", encoding="utf-8") as f:
     </div>
 </body>
 </html>""")
+
 
 print(f"✅ Rapport professionnel généré : {chemin_html}")
